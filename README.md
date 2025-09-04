@@ -1,1 +1,1 @@
-Belajar HTML Sederhana
+HTML Sederhana
