@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #c7d2fe);
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+
+.container-satu {
+    width: 800px;
+    margin: 50px auto;
+    background: rgba(255,255,255,0.9);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.sidebar-satu {
+    flex: 1;
+    margin-right: 20px;
+    background: linear-gradient(135deg, #f9a8d4, #f472b6); 
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.sidebar-satu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.kolom-utama {
+    flex: 3;
+    padding: 15px;
+    background-image: url("../dasarWeb/img/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    color: #111;
+    border-radius: 10px;
+}
+
+.kolom-utama p {
+    background: rgba(255,255,255,0.7); 
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.sidebar-dua {
+    flex: 1;
+    margin-left: 20px;
+    background: linear-gradient(135deg, #93c5fd, #3b82f6); 
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
